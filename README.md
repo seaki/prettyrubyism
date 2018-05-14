@@ -1,0 +1,1 @@
+PrettyRubyism is an implementation of PrettyRhythm series.
