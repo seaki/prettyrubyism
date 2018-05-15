@@ -25,7 +25,7 @@ king_of_prism_by_prettyrhythm:
 #######################################################
 pride_the_hero: &pride_the_hero
   series_name: pride_the_hero
-  title: KING OF PRISM by PrettyRhythm
+  title: KING OF PRISM PRIDE THE HERO
 king_of_prism_pride_the_hero:
   <<: *pride_the_hero
 #######################################################
