@@ -1,1 +1,5 @@
+require "active_support/all"
+require "yaml"
+require "hashie"
 require "prettyrubyism/version"
+require "prettyrubyism/series"

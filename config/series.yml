@@ -1,0 +1,43 @@
+#######################################################
+aurora_dream: &aurora_dream
+  series_name: aurora_dream
+  title: オーロラドリーム
+prettyrhythm_aurora_dream:
+  <<: *aurora_dream
+#######################################################
+dear_my_future: &dear_my_future
+  series_name: dear_my_future
+  title: ディアマイフューチャー
+prettyrhythm_dear_my_future:
+  <<: *dear_my_future
+#######################################################
+rainbow_live: &rainbow_live
+  series_name: rainbow_live
+  title: レインボーライブ
+prettyrhythm_rainbow_live:
+  <<: *rainbow_live
+#######################################################
+by_prettyrhythm: &by_prettyrhythm
+  series_name: by_prettyrhythm
+  title: KING OF PRISM by PrettyRhythm
+king_of_prism_by_prettyrhythm:
+  <<: *by_prettyrhythm
+#######################################################
+pride_the_hero: &pride_the_hero
+  series_name: pride_the_hero
+  title: KING OF PRISM by PrettyRhythm
+king_of_prism_pride_the_hero:
+  <<: *pride_the_hero
+#######################################################
+pripara:
+  series_name: pripara
+  title: プリパラ
+#######################################################
+idoltime_pripara:
+  series_name: idoltime_pripara
+  title: アイドルタイムプリパラ
+#######################################################
+kiratto_prichan:
+  series_name: kiratto_prichan
+  title: キラッとプリ☆チャン
+#######################################################
