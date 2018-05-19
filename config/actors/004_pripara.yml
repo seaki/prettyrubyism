@@ -1,0 +1,37 @@
+laala:
+  actor_name: laala
+  name: 真中らぁら
+  cast_name: 茜屋日海夏
+  created_date:  # TBD: epochを筐体プリパラ開始日にするかアニメ1話にするか
+    2014-07-05
+  # birthday: # TBD: 生誕年の扱い
+mirei:
+  actor_name: mirei
+  name: 南みれぃ
+  cast_name: 芹澤優
+  created_date: 2014-07-05
+  # birthday:
+sophy:
+  actor_name: sophy
+  name: 北条そふぃ
+  cast_name: 久保田未夢
+  created_date: 2014-07-05
+  # birthday:
+sion:
+  actor_name: sion
+  name: 東堂シオン
+  cast_name: 山北早紀
+  created_date: 2014-07-05
+  # birthday:
+dorothy:
+  actor_name: dorothy
+  name: ドロシー・ウェスト
+  cast_name: 澁谷梓希
+  created_date: 2014-07-05
+  # birthday:
+reona:
+  actor_name: reona
+  name: レオナ・ウェスト
+  cast_name: 若井友希
+  created_date: 2014-07-05
+  # birthday:

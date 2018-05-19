@@ -13,6 +13,21 @@
 # it.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+
+$LOAD_PATH.unshift File.expand_path("../lib", __dir__)
+require "prettyrubyism"
+require "rspec"
+require "rspec-parameterized"
+require "rspec/its"
+require "rspec/collection_matchers"
+require "delorean"
+require "tempfile"
+require "pry"
+
+# Requires supporting ruby files with custom matchers and macros, etc,
+# in spec/support/ and its subdirectories.
+Dir["#{__dir__}/support/**/*.rb"].each {|f| require f }
+
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
