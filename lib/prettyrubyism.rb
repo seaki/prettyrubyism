@@ -8,6 +8,12 @@ require "prettyrubyism/actors"
 require "prettyrubyism/core"
 require "prettyrubyism/pripara"
 
+module PrettyRubyism
+  def self.method_missing(name, *args, &block) # rubocop:disable Style/MethodMissing
+    PrettyRubyism::Core.instance.send(name, *args, &block)
+  end
+end
+
 module PrettyRhythm
   def self.method_missing(name, *args, &block) # rubocop:disable Style/MethodMissing
     PrettyRubyism::Core.instance.send(name, *args, &block)
