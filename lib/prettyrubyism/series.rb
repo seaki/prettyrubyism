@@ -3,7 +3,7 @@ module PrettyRubyism
   # this is record of "config/series.yml"
   class Series < Hash
     include Hashie::Extensions::MethodAccess
-    # include PrettyRubyism::Concerns::Util
+    include PrettyRubyism::Concerns::Util
     include Enumerable
 
     @cache = {}

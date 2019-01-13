@@ -5,6 +5,7 @@ module PrettyRubyism
   class Core
     include Singleton
     include Enumerable
+    include PrettyRubyism::Concerns::Util
 
     def method_missing(name, *args)
       super
