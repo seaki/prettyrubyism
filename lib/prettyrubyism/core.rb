@@ -7,6 +7,12 @@ module PrettyRubyism
     include Enumerable
     include PrettyRubyism::Concerns::Util
 
+    PrettyRubyism::Series.names.each do |series_name|
+      define_method series_name do
+        PrettyRubyism::Series.find(series_name)
+      end
+    end
+
     def method_missing(name, *args)
       super
     end
