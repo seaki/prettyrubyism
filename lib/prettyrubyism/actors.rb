@@ -8,8 +8,10 @@ module PrettyRubyism
       :actor_name,
       :name,
       :cast_name,
+      :singer_name,
       :type,
       :brand,
+      :color,
       :created_date,
       :birthday,
     ].freeze
