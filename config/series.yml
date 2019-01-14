@@ -2,36 +2,55 @@
 aurora_dream: &aurora_dream
   series_name: aurora_dream
   title: オーロラドリーム
+  started_date: 2011-04-09
+  ended_date:   2012-03-31
+  episodes: 51
+  actors:
+    - aira
+    - rizumu
+    - mion
 prettyrhythm_aurora_dream:
   <<: *aurora_dream
 #######################################################
 dear_my_future: &dear_my_future
   series_name: dear_my_future
   title: ディアマイフューチャー
+  started_date: 2012-04-07
+  ended_date:   2013-03-30
+  episodes: 51
 prettyrhythm_dear_my_future:
   <<: *dear_my_future
 #######################################################
 rainbow_live: &rainbow_live
   series_name: rainbow_live
   title: レインボーライブ
+  started_date: 2013-04-06
+  ended_date:   2014-03-29
+  episodes: 51
 prettyrhythm_rainbow_live:
   <<: *rainbow_live
 #######################################################
+# TBD: movies にくくり出すかどうか
 by_prettyrhythm: &by_prettyrhythm
   series_name: by_prettyrhythm
   title: KING OF PRISM by PrettyRhythm
+  started_date:   2016-01-09
 king_of_prism_by_prettyrhythm:
   <<: *by_prettyrhythm
 #######################################################
 pride_the_hero: &pride_the_hero
   series_name: pride_the_hero
   title: KING OF PRISM PRIDE THE HERO
+  started_date:   2017-06-10
 king_of_prism_pride_the_hero:
   <<: *pride_the_hero
 #######################################################
 pripara:
   series_name: pripara
   title: プリパラ
+  started_date: 2014-07-05
+  ended_date:   2017-03-28
+  episodes: 140
   actors:
     - laala
     - mirei
@@ -43,6 +62,9 @@ pripara:
 idoltime_pripara:
   series_name: idoltime_pripara
   title: アイドルタイムプリパラ
+  started_date: 2017-04-04
+  ended_date:   2018-03-27
+  episodes: 51
   actors:
     - laala
     - mirei
@@ -51,11 +73,23 @@ idoltime_pripara:
     - dorothy
     - reona
 #######################################################
-kiratto_prichan:
+kiratto_prichan: &kiratto_prichan
   series_name: kiratto_prichan
   title: キラッとプリ☆チャン
+  started_date: 2018-04-08
+#  ended_date:    # series goes on...
+#  episodes: 41
   actors:
     - mirai
     - emo
     - rinka
+    - anna
+    - sara
+    - meru
+    - ange
+    - nanahoshi_aira
+    - ru
+    - devi
+prichan:
+  <<: *kiratto_prichan
 #######################################################
