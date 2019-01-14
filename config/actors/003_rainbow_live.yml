@@ -1,0 +1,61 @@
+# TODO: 初登場をまじめに調べる
+naru:
+  actor_name: naru
+  name: 彩瀬なる
+  cast_name: 加藤英美里
+  created_date: 2013-04-06
+  birthday:
+ito:
+  actor_name: ito
+  name: 涼野いと
+  cast_name: 小松未可子
+  created_date: 2013-04-06
+  birthday:
+ann:
+  actor_name: ann
+  name: 福原あん
+  cast_name: 芹澤優
+  created_date: 2013-04-06
+  birthday:
+beru:
+  actor_name: beru
+  name: 蓮城寺べる
+  cast_name: 戸松遥
+  created_date: 2013-04-06
+  birthday:
+otoha:
+  actor_name: otoha
+  name: 小鳥遊おとは
+  cast_name: 後藤沙緒里
+  created_date: 2013-04-06
+  birthday:
+wakana:
+  actor_name: wakana
+  name: 森園わかな
+  cast_name: 内田真礼
+  created_date: 2013-04-06
+  birthday:
+rinne:
+  actor_name: rinne
+  name: りんね
+  cast_name: 佐倉綾音
+  created_date: 2013-04-06
+  birthday:
+koji:
+  actor_name: koji
+  name: 神浜コウジ
+  cast_name: 柿原徹也
+  created_date: 2013-04-06
+  birthday:
+hiro:
+  actor_name: hiro
+  name: 速水ヒロ
+  cast_name: 前野智昭
+  created_date: 2013-04-06
+  birthday:
+kaduki:
+  actor_name: kaduki
+  name: 仁科カヅキ
+  cast_name: 増田俊樹
+  created_date: 2013-04-06
+  birthday:

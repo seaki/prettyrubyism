@@ -18,6 +18,11 @@ dear_my_future: &dear_my_future
   started_date: 2012-04-07
   ended_date:   2013-03-30
   episodes: 51
+  actors:
+    - mia
+    - reina
+    - karin
+    - ayami
 prettyrhythm_dear_my_future:
   <<: *dear_my_future
 #######################################################
@@ -51,13 +56,29 @@ pripara:
   started_date: 2014-07-05
   ended_date:   2017-03-28
   episodes: 140
-  actors:
+  actors: &actors_of_pripara
     - laala
     - mirei
     - sophy
     - sion
     - dorothy
     - reona
+    - cosmo
+    - chanko
+    - falulu
+    - aroma
+    - mikan
+    - garuru
+    - sikyouin_hibiki
+    - fuwari
+    - ajimi
+    - non
+    - chiri
+    - pepper
+    - juri
+    - janis
+    - meganee
+    - nao
 #######################################################
 idoltime_pripara:
   series_name: idoltime_pripara
@@ -66,12 +87,33 @@ idoltime_pripara:
   ended_date:   2018-03-27
   episodes: 51
   actors:
+  # TBD: order
     - laala
+    - yui
+    - nino
+    - michiru
+    - falala
+    - garara
+    - shougo
+    - asahi
+    - koyoi
+    - shuka
+    - hanazono_mia
+    # pripara
     - mirei
     - sophy
     - sion
     - dorothy
     - reona
+    - aroma
+    - mikan
+    - garuru
+    - sikyouin_hibiki
+    - fuwari
+    - falulu
+    - non
+    - chiri
+    - pepper
 #######################################################
 kiratto_prichan: &kiratto_prichan
   series_name: kiratto_prichan

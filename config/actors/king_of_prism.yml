@@ -1,0 +1,63 @@
+# RLに登場するキャラは 003_rainbow_live で定義
+# 基本的にRL出てないキャラは全員 by PrettyRhythm に出てるはず
+shin:
+  actor_name: shin
+  name: 一条シン
+  cast_name: 寺島惇太
+  created_date: 2016-01-09
+  birthday:
+yukinojo:
+  actor_name: yukinojo
+  name: 太刀花ユキノジョウ
+  cast_name: 斉藤壮馬
+  created_date: 2016-01-09
+  birthday:
+taiga:
+  actor_name: taiga
+  name: 香賀美タイガ
+  cast_name: 畠中祐
+  created_date: 2016-01-09
+  birthday:
+kakeru:
+  actor_name: kakeru
+  name: 十王院カケル
+  cast_name: 八代拓
+  created_date: 2016-01-09
+  birthday:
+minato:
+  actor_name: minato
+  name: 鷹梁ミナト
+  cast_name: 五十嵐雅
+  created_date: 2016-01-09
+  birthday:
+leo:
+  actor_name: leo
+  name: 西園寺レオ
+  cast_name: 永塚拓馬
+  created_date: 2016-01-09
+  birthday:
+yu:
+  actor_name: yu
+  name: 涼野ユウ
+  cast_name: 内田雄馬
+  created_date: 2016-01-09
+  birthday:
+louis:
+  actor_name: louis
+  name: 如月ルヰ
+  cast_name: 蒼井翔太
+  created_date: 2016-01-09
+  birthday:
+alexander:
+  actor_name: alexander
+  name: 大和アレクサンダー
+  cast_name: 武内駿輔
+  created_date: 2016-01-09
+  birthday:
+joji:
+  actor_name: joji
+  name: 高田馬場ジョージ
+  cast_name: 杉田智和
+  singer_name: 小林竜之
+  created_date: 2016-01-09
+  birthday:
