@@ -1,40 +1,134 @@
 # TBD: A子ちゃんとかなおちゃんとかの扱い
-# ライブをしていれば本gemでは取り扱う
-# TBD: 005_idoltime_pripara は欠番にするか、それとも分けるか
+# ライブをしていれば本gemでは取り扱う、つまり、CGモデルが存在すれば、取り扱う方向で。
+# なので、なおちゃんは映画でライブしてるので取り扱うけど、栄子ちゃんはライブしてないので扱わない方向でいきます
+# アイドルタイムプリパラになって出てくるアイドルは 005_idoltime_pripara に実装しています
+# TODO: 初登場をまじめに調べる
 laala:
   actor_name: laala
   name: 真中らぁら
   cast_name: 茜屋日海夏
-  created_date:  # TBD: epochを筐体プリパラ開始日にするかアニメ1話にするか
-    2014-07-05
-  # birthday: # 生誕年はいらない
+  created_date: 2014-07-05 # ep 01
+  birthday: 11/20 # ピザの日
 mirei:
   actor_name: mirei
   name: 南みれぃ
   cast_name: 芹澤優
   created_date: 2014-07-05
-  # birthday:
+  birthday: 10/1 # 法の日
 sophy:
   actor_name: sophy
   name: 北条そふぃ
   cast_name: 久保田未夢
   created_date: 2014-07-05
-  # birthday:
+  birthday: 7/30 # 梅干しの日
 sion:
   actor_name: sion
   name: 東堂シオン
   cast_name: 山北早紀
   created_date: 2014-07-05
-  # birthday:
+  birthday: 1/5 # 囲碁の日
 dorothy:
   actor_name: dorothy
   name: ドロシー・ウェスト
   cast_name: 澁谷梓希
   created_date: 2014-07-05
-  # birthday:
+  birthday: 2/5 # 双子の日
 reona:
   actor_name: reona
   name: レオナ・ウェスト
   cast_name: 若井友希
   created_date: 2014-07-05
-  # birthday:
+  birthday: 2/5 # 双子の日
+cosmo:
+  actor_name: cosmo
+  name: 北条コスモ
+  cast_name: 山本希望
+  created_date: 2014-07-05
+  birthday: 9/12 # 宇宙の日
+chanko:
+  actor_name: chanko
+  name: 鍋島ちゃん子
+  cast_name: 赤﨑千夏
+  created_date: 2014-07-05
+falulu:
+  actor_name: falulu
+  name: ファルル
+  cast_name: 赤﨑千夏
+  created_date: 2014-07-05
+  birthday: 3/21
+aroma:
+  actor_name: aroma
+  name: 黒須あろま
+  cast_name: 牧野由依
+  created_date: 2014-07-05
+  birthday: 6/6 # 悪魔の日
+mikan:
+  actor_name: mikan
+  name: 白玉みかん
+  cast_name: 渡部優衣
+  created_date: 2014-07-05
+  birthday: 10/4 # 天使の日
+garuru: # TBD: ガァルルのスペル
+  actor_name: garuru
+  name: ガァルル
+  cast_name: 真田アサミ
+  created_date: 2014-07-05
+  birthday: 4/17 # 恐竜の日
+sikyouin_hibiki: # ADのヒビキさんと被る
+  actor_name: sikyouin_hibiki
+  name: 紫京院ひびき
+  cast_name: 斎賀みつき
+  created_date: 2014-07-05
+  birthday: 3/27
+fuwari:
+  actor_name: fuwari
+  name: 緑風ふわり
+  cast_name: 佐藤あずさ
+  created_date: 2014-07-05
+  birthday: 8/11 # 山の日
+ajimi:
+  actor_name: ajimi
+  name: 黄木あじみ
+  cast_name: 上田麗奈
+  created_date: 2014-07-05
+  birthday: 11/3 # 文化の日(憲法公布の日)
+# TBD: 真中のんとトライアングルの取り扱い
+non:
+  actor_name: non
+  name: 真中のん
+  cast_name: 田中美海
+  created_date: 2014-07-05
+  birthday: 9/6 # 妹の日
+chiri:
+  actor_name: chiri
+  name: 月川ちり
+  cast_name: 大森日雅
+  created_date: 2014-07-05
+  birthday: 11/15 # 着物の日
+pepper:
+  actor_name: pepper
+  name: 太陽ペッパー
+  cast_name: 山下七海
+  created_date: 2014-07-05
+  birthday: 2/9 # 肉の日
+juri: # TBD: ジュリィのスペル
+  actor_name: juri
+  name: ジュリィ
+  cast_name: 上田麗奈
+  created_date: 2014-07-05
+janis:
+  actor_name: janis
+  name: ジャニス
+  cast_name: 豊崎愛生
+  created_date: 2014-07-05
+meganee:
+  actor_name: meganee
+  name: 赤井めが姉ぇ
+  cast_name: 伊藤かな恵
+  created_date: 2014-07-05
+nao:
+  actor_name: nao
+  name: 愛媛なお
+  cast_name: 南條愛乃
+  created_date: 2014-07-05
+  birthday: 11/20

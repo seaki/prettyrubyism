@@ -3,13 +3,13 @@ mirai:
   actor_name: mirai
   name: 桃山みらい
   cast_name: 林鼓子
-  created_date: 2018-04-08 # ep 001
+  created_date: 2018-04-08 # ep 01
   birthday: 7/12
 emo:
   actor_name: emo
   name: 萌黄えも
   cast_name: 久保田未夢
-  created_date: 2018-04-08 # ep 001
+  created_date: 2018-04-08 # ep 01
   birthday: 9/9
 rinka:
   actor_name: rinka

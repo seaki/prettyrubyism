@@ -1,0 +1,60 @@
+# TODO: プリパラ内に入るとキャラとか呼び名が変わるキャラ
+# TODO: 初登場をまじめに調べる
+yui:
+  actor_name: yui
+  name: 夢川ゆい
+  cast_name: 伊達朱里紗
+  created_date: 2017-04-04 # ep 01
+  birthday: 8/18 # お米の日
+nino:
+  actor_name: nino
+  name: 虹色にの
+  cast_name: 大地葉
+  created_date: 2017-04-04 # ep 01
+  birthday: 3/14 # 円周率の日
+michiru:
+  actor_name: michiru
+  name: 幸多みちる
+  cast_name: 山田唯菜
+  created_date: 2017-04-04 # ep 01
+  birthday: 7/13 # オカルトの日
+falala: # TBD: ファララのスペル
+  actor_name: falala
+  name: ファララ
+  cast_name: 佐藤あずさ
+  created_date: 2017-04-04
+garara: # TBD: ガァララのスペル
+  actor_name: garara
+  name: ガァララ
+  cast_name: 黒沢ともよ
+  created_date: 2017-04-04
+shougo:
+  actor_name: shougo
+  name: 夢川ショウゴ
+  cast_name: 山下誠一郎
+  created_date: 2017-04-04 # ep 01
+  birthday: 11/23
+asahi:
+  actor_name: asahi
+  name: 三鷹アサヒ
+  cast_name: 小林竜之
+  created_date: 2017-04-04 # ep 01
+  birthday: 1/1
+koyoi:
+  actor_name: koyoi
+  name: 高瀬コヨイ
+  cast_name: 土田玲央
+  created_date: 2017-04-04 # ep 01
+  birthday: 12/24
+shuka:
+  actor_name: shuka
+  name: 華園しゅうか
+  cast_name: 朝日奈丸佳
+  created_date: 2017-04-04 # ep 01
+  birthday: 10/17 # 貯蓄の日
+hanazono_mia:
+  actor_name: hanazono_mia
+  name: 華園みあ
+  cast_name: 大久保瑠美
+  created_date: 2017-04-04 # ep 01
+  birthday: 3/9 # 日下部美愛の誕生日

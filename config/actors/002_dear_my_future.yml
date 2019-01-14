@@ -1,0 +1,28 @@
+# TODO: 各キャラの誕生日調べる
+# TODO: 各キャラの初登場回調べる
+mia:
+  actor_name: mia
+  name: 上葉みあ
+  cast_name: 大久保瑠美
+  created_date: 2012-04-07 # ep 01
+  birthday: 8/8
+reina:
+  actor_name: reina
+  name: 深山れいな
+  cast_name: 高森奈津美
+  created_date: 2012-04-07 # ep 01
+  birthday: 10/30
+karin:
+  actor_name: karin
+  name: 志々美かりん
+  cast_name: 津田美波
+  created_date: 2012-04-07 # ep 01
+  birthday: 5/10
+ayami:
+  actor_name: ayami
+  name: 大瑠璃あやみ
+  cast_name: 佐倉綾音
+  created_date: 2012-04-07 # ep 01
+  birthday: 1/6
+# TODO: 韓国勢
+# TODO: ボーイズ
