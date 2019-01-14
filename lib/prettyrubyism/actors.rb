@@ -8,11 +8,17 @@ module PrettyRubyism
       :actor_name,
       :name,
       :cast_name,
+      :type,
       :created_date,
       :birthday,
     ].freeze
 
     attr_accessor :io
+
+    # @return [Boolean]
+    def ==(other)
+      other.is_a?(self.class) && self.name == other.name
+    end
 
     # Whether `date` is his/her birthday
     #
@@ -50,8 +56,6 @@ module PrettyRubyism
     alias_method :has_birthday?, :have_birthday?
 
     class << self
-      attr_writer :sleep_sec
-
       # @param actor_name [Symbol]
       # @return [PrettyRubyism::Actors]
       def find(actor_name)
@@ -98,11 +102,6 @@ module PrettyRubyism
       def valid?(actor_name)
         names.include?(actor_name)
       end
-
-      def sleep_sec
-        @sleep_sec ||= 1
-      end
-
     end
   end
 end
