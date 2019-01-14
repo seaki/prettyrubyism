@@ -37,3 +37,5 @@ module KirattoPriChan
     PrettyRubyism::Core.instance.send(name, *args, &block)
   end
 end
+
+PR = Rubyism = PrettyRubyism
