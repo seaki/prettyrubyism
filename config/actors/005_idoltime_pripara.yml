@@ -26,6 +26,7 @@ falala: # TBD: ファララのスペル
 garara: # TBD: ガァララのスペル
   actor_name: garara
   name: ガァララ
+  full_name: ガァララ・ス・リープ
   cast_name: 黒沢ともよ
   created_date: 2017-04-04
 shougo:
@@ -58,3 +59,8 @@ hanazono_mia:
   cast_name: 大久保瑠美
   created_date: 2017-04-04 # ep 01
   birthday: 3/9 # 日下部美愛の誕生日
+mimiko:
+  actor_name: mimiko
+  name: 地獄ミミ子
+  cast_name: 上田麗奈
+  created_date: 2017-04-04
