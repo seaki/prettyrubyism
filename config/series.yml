@@ -32,6 +32,17 @@ rainbow_live: &rainbow_live
   started_date: 2013-04-06
   ended_date:   2014-03-29
   episodes: 51
+  actors:
+    - naru
+    - ito
+    - ann
+    - beru
+    - otoha
+    - wakana
+    - rinne
+    - koji
+    - hiro
+    - kaduki
 prettyrhythm_rainbow_live:
   <<: *rainbow_live
 #######################################################
