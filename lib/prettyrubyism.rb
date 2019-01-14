@@ -7,6 +7,7 @@ require "prettyrubyism/series"
 require "prettyrubyism/actors"
 require "prettyrubyism/core"
 require "prettyrubyism/pripara"
+require "prettyrubyism/kirattoprichan"
 
 module PrettyRubyism
   def self.method_missing(name, *args, &block) # rubocop:disable Style/MethodMissing
