@@ -1,10 +1,13 @@
+# TBD: A子ちゃんとかなおちゃんとかの扱い
+# ライブをしていれば本gemでは取り扱う
+# TBD: 005_idoltime_pripara は欠番にするか、それとも分けるか
 laala:
   actor_name: laala
   name: 真中らぁら
   cast_name: 茜屋日海夏
   created_date:  # TBD: epochを筐体プリパラ開始日にするかアニメ1話にするか
     2014-07-05
-  # birthday: # TBD: 生誕年の扱い
+  # birthday: # 生誕年はいらない
 mirei:
   actor_name: mirei
   name: 南みれぃ
