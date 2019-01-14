@@ -9,6 +9,20 @@ module PrettyRubyism
     @cache = {}
     @config = nil
 
+    # @param [PrettyRubyism::Series,PrettyRubyism::Actors] other
+    #
+    # @return [Boolean] other is same PrettyRubyism::Series or PrettyRubyism::Series include PrettyRubyism::Actors
+    def ===(other)
+      case other
+      when self.class
+        self == other
+      when PrettyRubyism::Actors
+        actors.include? other
+      else
+        false
+      end
+    end
+
     # @return [Array<PrettyRubyism::Actors>]
     def actors
       unless @actors
@@ -27,6 +41,15 @@ module PrettyRubyism
 
     def each(&block)
       actors.each(&block)
+    end
+
+    # @return [String] json string
+    def to_json(*_args)
+      original_hash = {}
+      each_without_actors do |k, v|
+        original_hash[k] = v
+      end
+      original_hash.to_json
     end
 
     class << self
