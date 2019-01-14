@@ -113,6 +113,25 @@ describe PrettyRubythm::Series do
     let(:series) { PrettyRubythm::Series.find(series_name) }
     let(:series_name) { :aurora_dream }
 
-    it { expect {|b| series.each(&b) }.to yield_successive_args(PrettyRubythm::Actor, PrettyRubythm::Actor) }
+    it { expect {|b| series.each(&b) }.to yield_successive_args(
+      PrettyRubythm::Actor,
+      PrettyRubythm::Actor,
+      PrettyRubythm::Actor,
+      ) }
+  end
+
+  describe "#to_json" do
+    subject { series.to_json }
+
+    let(:series) { PrettyRubythm::Series.find(series_name) }
+    let(:series_name) { :aurora_dream }
+
+    let(:json) do
+      <<-JSON
+{\"series_name\":\"aurora_dream\",\"title\":\"オーロラドリーム\",\"started_date\":\"2011-04-09\",\"ended_date\":\"2012-03-31\",\"episodes\":51,\"actors\":[\"aira\",\"rizumu\",\"mion\"]}
+      JSON
+    end
+
+    it { should eq json.squish }
   end
 end
