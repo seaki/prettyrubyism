@@ -6,6 +6,8 @@ require "prettyrubyism/concerns/util"
 require "prettyrubyism/series"
 require "prettyrubyism/actors"
 require "prettyrubyism/core"
+require "prettyrubyism/prettyrhythm"
+require "prettyrubyism/kingofprism"
 require "prettyrubyism/pripara"
 require "prettyrubyism/kirattoprichan"
 
