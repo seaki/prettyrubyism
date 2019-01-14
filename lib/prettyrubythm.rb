@@ -42,3 +42,4 @@ module KirattoPriChan
 end
 
 PR = Rubythm = PrettyRubythm
+PriChan = KirattoPriChan
