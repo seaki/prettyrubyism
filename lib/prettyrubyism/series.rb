@@ -9,6 +9,26 @@ module PrettyRubyism
     @cache = {}
     @config = nil
 
+    # @return [Array<PrettyRubyism::Actors>]
+    def actors
+      unless @actors
+        @actors = []
+        if has_key?(:actors)
+          fetch(:actors).each do |actor_name|
+            @actors << PrettyRubyism::Actors.find(actor_name.to_sym)
+          end
+        end
+      end
+
+      @actors
+    end
+
+    alias_method :each_without_actors, :each
+
+    def each(&block)
+      actors.each(&block)
+    end
+
     class << self
       # @return [Array<Symbol>]
       def names
