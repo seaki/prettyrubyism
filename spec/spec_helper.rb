@@ -15,7 +15,7 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
 $LOAD_PATH.unshift File.expand_path("../lib", __dir__)
-require "prettyrubyism"
+require "prettyrubythm"
 require "rspec"
 require "rspec-parameterized"
 require "rspec/its"

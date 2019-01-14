@@ -3,10 +3,10 @@ services:
 
   app:
     build:       .
-    image:       seaki/prettyrubyism
+    image:       seaki/prettyrubythm
     tty:         true
     stdin_open:  true
-    command:     ["irb", "-I", "lib/", "-rprettyrubyism"]
-    working_dir: /prettyrubyism
+    command:     ["irb", "-I", "lib/", "-rprettyrubythm"]
+    working_dir: /prettyrubythm
     volumes:
-      - .:/prettyrubyism
+      - .:/prettyrubythm

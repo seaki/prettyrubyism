@@ -1,4 +1,4 @@
-module PrettyRubyism
+module PrettyRubythm
   module Concerns
     # utility methods
     module Util

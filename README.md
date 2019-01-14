@@ -1,6 +1,6 @@
-# PrettyRubyism (Ruby + PrettyRhythm)
+# PrettyRubythm (Ruby + PrettyRhythm)
 
-PrettyRubyism is an implementation of PrettyRhythm series.
+PrettyRubythm is an implementation of PrettyRhythm series.
 
 Inspired by [Rubicure](https://github.com/sue445/rubicure)
 

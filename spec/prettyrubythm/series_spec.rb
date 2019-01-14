@@ -1,4 +1,4 @@
-describe PrettyRubyism::Series do
+describe PrettyRubythm::Series do
   let(:series_names) do
     [
       :aurora_dream,
@@ -13,7 +13,7 @@ describe PrettyRubyism::Series do
   end
 
   describe "#names" do
-    subject { PrettyRubyism::Series.names }
+    subject { PrettyRubythm::Series.names }
 
     it { should include(*series_names) }
   end

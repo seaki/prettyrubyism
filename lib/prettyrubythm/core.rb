@@ -1,15 +1,15 @@
-module PrettyRubyism
+module PrettyRubythm
   require "singleton"
 
   # generic methods
   class Core
     include Singleton
     include Enumerable
-    include PrettyRubyism::Concerns::Util
+    include PrettyRubythm::Concerns::Util
 
-    PrettyRubyism::Series.names.each do |series_name|
+    PrettyRubythm::Series.names.each do |series_name|
       define_method series_name do
-        PrettyRubyism::Series.find(series_name)
+        PrettyRubythm::Series.find(series_name)
       end
     end
 
@@ -21,25 +21,25 @@ module PrettyRubyism
     #
     # @param [Time,Date] arg Time, Date or date like String (ex. "2013-12-16")
     #
-    # @return [Array<PrettyRubyism::Actors>] all actors
+    # @return [Array<PrettyRubythm::Actors>] all actors
     #
     # @example
-    #   PrettyRubyism.all_actors.count
-    #   PrettyRubyism.all_actors.map(&:actor_name)
+    #   PrettyRubythm.all_actors.count
+    #   PrettyRubythm.all_actors.map(&:actor_name)
     #   # returns current actor count and names
     #
-    #   PrettyRubyism.all_actors("2013-10-26").count
+    #   PrettyRubythm.all_actors("2013-10-26").count
     #   #=> (オーロラドリーム、ディアマイフューチャー、レインボーライブの途中)
     #
-    #   PrettyRubyism.all_actors.include?(PriPara.falulu)
+    #   PrettyRubythm.all_actors.include?(PriPara.falulu)
     #   #=> true
     def all_actors(arg = Time.current)
       date = to_date(arg)
 
       unless @all_actors
         @all_actors = []
-        PrettyRubyism::Actors.names.each do |actor_name|
-          @all_actors << PrettyRubyism::Actors.find(actor_name)
+        PrettyRubythm::Actors.names.each do |actor_name|
+          @all_actors << PrettyRubythm::Actors.find(actor_name)
         end
       end
 

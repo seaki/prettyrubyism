@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in prettyrubyism.gemspec
+# Specify your gem's dependencies in prettyrubythm.gemspec
 gemspec
 
 if Gem::Version.create(RUBY_VERSION) < Gem::Version.create("2.3.0")

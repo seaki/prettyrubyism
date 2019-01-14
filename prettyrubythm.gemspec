@@ -1,15 +1,15 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "prettyrubyism/version"
+require "prettyrubythm/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "prettyrubyism"
-  spec.version       = PrettyRubyism::VERSION
+  spec.name          = "prettyrubythm"
+  spec.version       = PrettyRubythm::VERSION
   spec.authors       = ["seaki"]
   spec.email         = ["seaki@sastudio.jp"]
   spec.description   = 'All about "PrettyRhythm".'
   spec.summary       = 'All about "PrettyRhythm".'
-  spec.homepage      = "https://github.com/seaki/prettyrubyism"
+  spec.homepage      = "https://github.com/seaki/prettyrubythm"
   spec.license       = "MIT"
 
   spec.required_ruby_version = ">= 2.2.2"

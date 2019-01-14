@@ -1,35 +1,35 @@
-module PrettyRubyism
+module PrettyRubythm
   # PrettyRhythm series (ex. Aurora dream, PriPara)
   # this is record of "config/series.yml"
   class Series < Hash
     include Hashie::Extensions::MethodAccess
-    include PrettyRubyism::Concerns::Util
+    include PrettyRubythm::Concerns::Util
     include Enumerable
 
     @cache = {}
     @config = nil
 
-    # @param [PrettyRubyism::Series,PrettyRubyism::Actors] other
+    # @param [PrettyRubythm::Series,PrettyRubythm::Actors] other
     #
-    # @return [Boolean] other is same PrettyRubyism::Series or PrettyRubyism::Series include PrettyRubyism::Actors
+    # @return [Boolean] other is same PrettyRubythm::Series or PrettyRubythm::Series include PrettyRubythm::Actors
     def ===(other)
       case other
       when self.class
         self == other
-      when PrettyRubyism::Actors
+      when PrettyRubythm::Actors
         actors.include? other
       else
         false
       end
     end
 
-    # @return [Array<PrettyRubyism::Actors>]
+    # @return [Array<PrettyRubythm::Actors>]
     def actors
       unless @actors
         @actors = []
         if has_key?(:actors)
           fetch(:actors).each do |actor_name|
-            @actors << PrettyRubyism::Actors.find(actor_name.to_sym)
+            @actors << PrettyRubythm::Actors.find(actor_name.to_sym)
           end
         end
       end
@@ -89,7 +89,7 @@ module PrettyRubyism
       end
 
       # @param series_name [Symbol]
-      # @return [PrettyRubyism::Series]
+      # @return [PrettyRubythm::Series]
       # @raise arg is not precure
       def find(series_name)
         raise UnknownSeriesError, "unknown series: #{series_name}" unless valid?(series_name)
@@ -99,7 +99,7 @@ module PrettyRubyism
           series_config = config[series_name] || {}
           series_config.reject! {|_k, v| v.nil? }
 
-          @cache[series_name] = PrettyRubyism::Series[series_config]
+          @cache[series_name] = PrettyRubythm::Series[series_config]
         end
 
         @cache[series_name]
