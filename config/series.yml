@@ -32,12 +32,30 @@ king_of_prism_pride_the_hero:
 pripara:
   series_name: pripara
   title: プリパラ
+  actors:
+    - laala
+    - mirei
+    - sophy
+    - sion
+    - dorothy
+    - reona
 #######################################################
 idoltime_pripara:
   series_name: idoltime_pripara
   title: アイドルタイムプリパラ
+  actors:
+    - laala
+    - mirei
+    - sophy
+    - sion
+    - dorothy
+    - reona
 #######################################################
 kiratto_prichan:
   series_name: kiratto_prichan
   title: キラッとプリ☆チャン
+  actors:
+    - mirai
+    - emo
+    - rinka
 #######################################################
