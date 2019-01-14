@@ -7,6 +7,7 @@ module PrettyRubyism
     ATTRIBUTES = [
       :actor_name,
       :name,
+      :full_name,
       :cast_name,
       :singer_name,
       :type,
