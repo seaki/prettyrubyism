@@ -41,4 +41,4 @@ module KirattoPriChan
   end
 end
 
-PR = Rubyism = PrettyRubythm
+PR = Rubythm = PrettyRubythm
