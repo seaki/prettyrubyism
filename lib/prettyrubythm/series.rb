@@ -9,27 +9,27 @@ module PrettyRubythm
     @cache = {}
     @config = nil
 
-    # @param [PrettyRubythm::Series,PrettyRubythm::Actors] other
+    # @param [PrettyRubythm::Series,PrettyRubythm::Actor] other
     #
-    # @return [Boolean] other is same PrettyRubythm::Series or PrettyRubythm::Series include PrettyRubythm::Actors
+    # @return [Boolean] other is same PrettyRubythm::Series or PrettyRubythm::Series include PrettyRubythm::Actor
     def ===(other)
       case other
       when self.class
         self == other
-      when PrettyRubythm::Actors
+      when PrettyRubythm::Actor
         actors.include? other
       else
         false
       end
     end
 
-    # @return [Array<PrettyRubythm::Actors>]
+    # @return [Array<PrettyRubythm::Actor>]
     def actors
       unless @actors
         @actors = []
         if has_key?(:actors)
           fetch(:actors).each do |actor_name|
-            @actors << PrettyRubythm::Actors.find(actor_name.to_sym)
+            @actors << PrettyRubythm::Actor.find(actor_name.to_sym)
           end
         end
       end

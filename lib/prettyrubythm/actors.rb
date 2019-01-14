@@ -1,7 +1,7 @@
 module PrettyRubythm
   require "sengiri_yaml"
 
-  class Actors < Hash # rubocop:disable Metrics/ClassLength
+  class Actor < Hash # rubocop:disable Metrics/ClassLength
     include Hashie::Extensions::MethodAccess
 
     ATTRIBUTES = [
@@ -61,14 +61,14 @@ module PrettyRubythm
 
     class << self
       # @param actor_name [Symbol]
-      # @return [PrettyRubythm::Actors]
+      # @return [PrettyRubythm::Actor]
       def find(actor_name)
         raise "unknown actor: #{actor_name}" unless valid?(actor_name)
 
         @cache ||= {}
         unless @cache[actor_name]
           actor_config = config[actor_name] || {}
-          @cache[actor_name] = PrettyRubythm::Actors[actor_config].tap {|actor| actor.io = $stdout }
+          @cache[actor_name] = PrettyRubythm::Actor[actor_config].tap {|actor| actor.io = $stdout }
         end
 
         @cache[actor_name]

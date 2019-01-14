@@ -21,7 +21,7 @@ module PrettyRubythm
     #
     # @param [Time,Date] arg Time, Date or date like String (ex. "2013-12-16")
     #
-    # @return [Array<PrettyRubythm::Actors>] all actors
+    # @return [Array<PrettyRubythm::Actor>] all actors
     #
     # @example
     #   PrettyRubythm.all_actors.count
@@ -38,8 +38,8 @@ module PrettyRubythm
 
       unless @all_actors
         @all_actors = []
-        PrettyRubythm::Actors.names.each do |actor_name|
-          @all_actors << PrettyRubythm::Actors.find(actor_name)
+        PrettyRubythm::Actor.names.each do |actor_name|
+          @all_actors << PrettyRubythm::Actor.find(actor_name)
         end
       end
 
