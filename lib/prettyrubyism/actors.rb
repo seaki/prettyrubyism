@@ -9,6 +9,7 @@ module PrettyRubyism
       :name,
       :cast_name,
       :type,
+      :brand,
       :created_date,
       :birthday,
     ].freeze
