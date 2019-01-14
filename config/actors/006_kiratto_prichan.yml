@@ -1,3 +1,4 @@
+# 初回登場回はキャスト表にクレジットされた放送回
 mirai:
   actor_name: mirai
   name: 桃山みらい
@@ -14,5 +15,48 @@ rinka:
   actor_name: rinka
   name: 青葉りんか
   cast_name: 厚木那奈美
-  created_date: 2018-04-08 # ep 01 TBD: 初ライブの放送回にするか、初回登場にするか
+  created_date: 2018-04-08 # ep 01
   birthday: 1/25
+anna:
+  actor_name: anna
+  name: 赤城あんな
+  cast_name: 芹澤優
+  created_date: 2018-04-08 # ep 01
+  birthday: 7/6
+sara:
+  actor_name: sara
+  name: 緑川さら
+  cast_name: 若井友希
+  created_date: 2018-04-08 # ep 01
+  birthday: 6/9
+meru:
+  actor_name: meru
+  name: 紫藤める
+  cast_name: 森嶋優花
+  created_date: 2018-09-02 # ep 22
+#  birthday: Not yet been officially announced
+ange:
+  actor_name: ange
+  name: 白鳥アンジュ
+  cast_name: 三森すずこ
+  created_date: 2018-04-08 # ep 01
+  birthday: 11/11
+nanahoshi_aira:
+  actor_name: nanahoshi_aira
+  name: 七星あいら
+  cast_name: 阿澄佳奈
+  created_date: 2018-07-01 # ep 13 # TBD: 七星あいら として登場した話数にするかどうか
+# TBD: おしゃまトリックスのふたりのアルファベット表記
+ru:
+  actor_name: ru
+  name: 明日香ルゥ
+  cast_name: 澁谷梓希
+  created_date: 2018-09-30 # ep 26
+devi:
+  actor_name: devi
+  name: 歩堂デヴィ
+  cast_name: 山北早紀
+  created_date: 2018-09-30 # ep 26
+# TODO: 一色カレン
+# TODO: アローズ
+# TODO: マーサさん
