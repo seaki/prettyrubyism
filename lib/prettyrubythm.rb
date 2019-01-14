@@ -10,6 +10,7 @@ require "prettyrubythm/prettyrhythm"
 require "prettyrubythm/kingofprism"
 require "prettyrubythm/pripara"
 require "prettyrubythm/kirattoprichan"
+require "prettyrubythm/errors"
 
 module PrettyRubythm
   def self.method_missing(name, *args, &block) # rubocop:disable Style/MethodMissing
