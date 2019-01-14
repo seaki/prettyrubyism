@@ -1,0 +1,12 @@
+version: "3"
+services:
+
+  app:
+    build:       .
+    image:       seaki/prettyrubyism
+    tty:         true
+    stdin_open:  true
+    command:     ["irb", "-I", "lib/", "-rprettyrubyism"]
+    working_dir: /prettyrubyism
+    volumes:
+      - .:/prettyrubyism
