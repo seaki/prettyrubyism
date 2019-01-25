@@ -76,7 +76,7 @@ module PrettyRubythm
         @config
       end
 
-      # @return [Hash] content of config/precure.yml
+      # @return [Hash] content of config/series.yml
       def reload_config!
         @cache = {}
         @config = nil
