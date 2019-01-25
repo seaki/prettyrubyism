@@ -11,4 +11,8 @@ module PriPara
   define_singleton_method :hibiki do
     PrettyRubythm::Actor.find(:shikyouin_hibiki)
   end
+
+  define_singleton_method :mia do
+    PrettyRubythm::Actor.find(:hanazono_mia)
+  end
 end
