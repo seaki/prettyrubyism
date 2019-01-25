@@ -6,12 +6,15 @@ aurora_dream: &aurora_dream
   ended_date:   2012-03-31
   episodes: 51
   actors:
+    # LISP
     - aira
     - rizumu
     - mion
+    # Serenon with K
     - serena
     - kanon
     - kaname
+    # Callings
     - shou
     - hibiki
     - wataru
@@ -25,15 +28,21 @@ dear_my_future: &dear_my_future
   ended_date:   2013-03-30
   episodes: 51
   actors:
+    # Prizmmy
     - mia
     - reina
     - karin
     - ayami
+    # PURETTY
     - hyein
     - somin
     - siyun
     - chaegyeong
     - jaeeun
+    # MARs
+    - aira
+    - rizumu
+    - mion
 prettyrhythm_dear_my_future:
   <<: *dear_my_future
 #######################################################
