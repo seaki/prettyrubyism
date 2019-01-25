@@ -7,4 +7,8 @@ module KirattoPriChan
       end
     end
   end
+
+  define_singleton_method :aira do
+    PrettyRubythm::Actor.find(:nanahoshi_aira)
+  end
 end
