@@ -142,7 +142,7 @@ pripara:
     - meganee
     - nao
 #######################################################
-idoltime_pripara:
+idoltime_pripara: &idoltime_pripara
   series_name: idoltime_pripara
   title: アイドルタイムプリパラ
   started_date: 2017-04-04
@@ -177,6 +177,8 @@ idoltime_pripara:
     - non
     - chiri
     - pepper
+idoltime:
+  <<: *idoltime_pripara
 #######################################################
 kiratto_prichan: &kiratto_prichan
   series_name: kiratto_prichan
