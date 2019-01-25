@@ -1,3 +1,4 @@
+# ADに登場するキャラは 001_aurora_dream で定義
 # TODO: 各キャラの誕生日調べる
 # TODO: 各キャラの初登場回調べる
 mia:
@@ -24,5 +25,30 @@ ayami:
   cast_name: 佐倉綾音
   created_date: 2012-04-07 # ep 01
   birthday: 1/6
-# TODO: 韓国勢
+# PURETTY のローマ字表記は発音をハングルに起こした上でローマ字化するイメージで
+hyein:
+  actor_name: hyein
+  name: ヘイン
+  cast_name: 伊藤かな恵 #TVシリーズ準拠
+  created_date: 2012-04-07 # ep 01
+somin:
+  actor_name: somin
+  name: ソミン
+  cast_name: 三宅麻理恵 #TVシリーズ準拠
+  created_date: 2012-04-07 # ep 01
+siyun:
+  actor_name: siyun
+  name: シユン
+  cast_name: 金香里 #TVシリーズ準拠
+  created_date: 2012-04-07 # ep 01
+chaegyeong:
+  actor_name: chaegyeong
+  name: チェギョン
+  cast_name: 明坂聡美 #TVシリーズ準拠
+  created_date: 2012-04-07 # ep 01
+jaeeun:
+  actor_name: jaeeun
+  name: ジェウン
+  cast_name: 米澤円 #TVシリーズ準拠
+  created_date: 2012-04-07 # ep 01
 # TODO: ボーイズ

@@ -9,6 +9,12 @@ aurora_dream: &aurora_dream
     - aira
     - rizumu
     - mion
+    - serena
+    - kanon
+    - kaname
+    - shou
+    - hibiki
+    - wataru
 prettyrhythm_aurora_dream:
   <<: *aurora_dream
 #######################################################
@@ -23,6 +29,11 @@ dear_my_future: &dear_my_future
     - reina
     - karin
     - ayami
+    - hyein
+    - somin
+    - siyun
+    - chaegyeong
+    - jaeeun
 prettyrhythm_dear_my_future:
   <<: *dear_my_future
 #######################################################
@@ -43,6 +54,10 @@ rainbow_live: &rainbow_live
     - koji
     - hiro
     - kaduki
+    - june
+    - rei
+    - hijiri
+    - jin
 prettyrhythm_rainbow_live:
   <<: *rainbow_live
 #######################################################
@@ -51,6 +66,19 @@ by_prettyrhythm: &by_prettyrhythm
   series_name: by_prettyrhythm
   title: KING OF PRISM by PrettyRhythm
   started_date:   2016-01-09
+  actors:
+    - shin
+    - yukinojo
+    - taiga
+    - kakeru
+    - minato
+    - leo
+    - yui
+    - louis
+    - alexander
+    - koji
+    - hiro
+    - kaduki
 king_of_prism_by_prettyrhythm:
   <<: *by_prettyrhythm
 #######################################################
@@ -58,6 +86,20 @@ pride_the_hero: &pride_the_hero
   series_name: pride_the_hero
   title: KING OF PRISM PRIDE THE HERO
   started_date:   2017-06-10
+  actors:
+    - shin
+    - yukinojo
+    - taiga
+    - kakeru
+    - minato
+    - leo
+    - yui
+    - louis
+    - alexander
+    - koji
+    - hiro
+    - kaduki
+    - joji
 king_of_prism_pride_the_hero:
   <<: *pride_the_hero
 #######################################################

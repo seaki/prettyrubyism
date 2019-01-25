@@ -1,4 +1,5 @@
 # TODO: 初登場をまじめに調べる
+# TODO: 誕生日をまじめに調べる
 naru:
   actor_name: naru
   name: 彩瀬なる
@@ -9,55 +10,81 @@ ito:
   actor_name: ito
   name: 涼野いと
   cast_name: 小松未可子
-  created_date: 2013-04-06
+  created_date: 2013-04-06 # TODO
   birthday:
 ann:
   actor_name: ann
   name: 福原あん
   cast_name: 芹澤優
-  created_date: 2013-04-06
+  created_date: 2013-04-06 # TODO
   birthday:
 beru:
   actor_name: beru
   name: 蓮城寺べる
   cast_name: 戸松遥
-  created_date: 2013-04-06
+  created_date: 2013-04-06 # TODO
   birthday:
 otoha:
   actor_name: otoha
   name: 小鳥遊おとは
   cast_name: 後藤沙緒里
-  created_date: 2013-04-06
+  created_date: 2013-04-06 # TODO
   birthday:
 wakana:
   actor_name: wakana
   name: 森園わかな
   cast_name: 内田真礼
-  created_date: 2013-04-06
+  created_date: 2013-04-06 # TODO
   birthday:
 rinne:
   actor_name: rinne
   name: りんね
   cast_name: 佐倉綾音
-  created_date: 2013-04-06
+  created_date: 2013-04-06 # TODO
   birthday:
 koji:
   actor_name: koji
   name: 神浜コウジ
   cast_name: 柿原徹也
-  created_date: 2013-04-06
+  created_date: 2013-04-06 # TODO
   birthday:
 hiro:
   actor_name: hiro
   name: 速水ヒロ
   cast_name: 前野智昭
-  created_date: 2013-04-06
+  created_date: 2013-04-06 # TODO
   birthday:
 kaduki:
   actor_name: kaduki
   name: 仁科カヅキ
   cast_name: 増田俊樹
-  created_date: 2013-04-06
+  created_date: 2013-04-06 # TODO
   birthday:
-# TODO: ジュネ様
-# TBD: 若い頃の聖や仁や冷は本編中でライブしてたっけな
+june:
+  actor_name: june
+  name: 天羽ジュネ
+  cast_name: 宍戸留美
+  created_date: 2013-04-06 # TODO
+  birthday:
+# TBD: コスモさん * プリパラとコンフリクトする
+# TBD: 若い頃の聖や仁や冷は本編中でCG付でライブしてたっけな
+# TBD: 冷・聖・仁はキンプリSSSでライブしたらキンプリへ移動させるかも
+rei:
+  actor_name: rei
+  name: 黒川冷
+  cast_name: 森久保祥太郎
+  created_date: 2013-04-06 # TODO
+  birthday:
+hijiri:
+  actor_name: hijiri
+  name: 氷室聖
+  cast_name: 関俊彦
+  created_date: 2013-04-06 # TODO
+  birthday:
+jin:
+  actor_name: jin
+  name: 法月仁
+  cast_name: 三木眞一郎
+  created_date: 2013-04-06 # TODO
+  birthday:
+# TBD: さすがに、皇さんは本編中でCGライブシーンないですよね……。

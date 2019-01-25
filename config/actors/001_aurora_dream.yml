@@ -1,3 +1,5 @@
+# TODO: 各キャラの誕生日調べる
+# TODO: 各キャラの初登場回調べる
 aira:
   actor_name: aira
   name: 春音あいら
@@ -11,6 +13,36 @@ rizumu:
 mion:
   actor_name: mion
   name: 高峰みおん
-  cast_name: 片岡あづさ
-  created_date: 2011-04-09
-# TBD: 過去のスタァの扱い
+  cast_name: 片岡あづさ # 放送当時改名前
+  created_date: 2011-04-09 # TODO
+serena:
+  actor_name: serena
+  name: 城之内セレナ
+  cast_name: 米澤円 # TVシリーズに準拠する
+  created_date: 2011-04-09 # TODO
+kanon:
+  actor_name: kanon
+  name: 藤堂かのん
+  cast_name: 明坂聡美 # TVシリーズに準拠する
+  created_date: 2011-04-09 # TODO
+kaname:
+  actor_name: kaname
+  name: 久里須かなめ
+  cast_name: 伊藤かな恵
+  created_date: 2011-04-09 # TODO
+shou:
+  actor_name: shou
+  name: ショウ
+  cast_name: 近藤隆
+  created_date: 2011-04-09 # TODO
+hibiki:
+  actor_name: hibiki
+  name: ヒビキ
+  cast_name: KENN
+  created_date: 2011-04-09 # TODO
+wataru:
+  actor_name: wataru
+  name: ワタル
+  cast_name: 岡本信彦
+  created_date: 2011-04-09 # TODO
+# TBD: 過去のスタァの扱い e.g. 阿世知社長, 神崎そなた
