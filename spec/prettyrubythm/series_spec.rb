@@ -117,6 +117,12 @@ describe PrettyRubythm::Series do
       PrettyRubythm::Actor,
       PrettyRubythm::Actor,
       PrettyRubythm::Actor,
+      PrettyRubythm::Actor,
+      PrettyRubythm::Actor,
+      PrettyRubythm::Actor,
+      PrettyRubythm::Actor,
+      PrettyRubythm::Actor,
+      PrettyRubythm::Actor,
       ) }
   end
 
@@ -128,7 +134,7 @@ describe PrettyRubythm::Series do
 
     let(:json) do
       <<-JSON
-{\"series_name\":\"aurora_dream\",\"title\":\"オーロラドリーム\",\"started_date\":\"2011-04-09\",\"ended_date\":\"2012-03-31\",\"episodes\":51,\"actors\":[\"aira\",\"rizumu\",\"mion\"]}
+{\"series_name\":\"aurora_dream\",\"title\":\"オーロラドリーム\",\"started_date\":\"2011-04-09\",\"ended_date\":\"2012-03-31\",\"episodes\":51,\"actors\":[\"aira\",\"rizumu\",\"mion\",\"serena\",\"kanon\",\"kaname\",\"shou\",\"hibiki\",\"wataru\"]}
       JSON
     end
 

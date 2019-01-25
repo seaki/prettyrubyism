@@ -45,7 +45,7 @@ describe PrettyRubythm::Actor do
     end
 
     describe "#find" do
-    subject { PrettyRubythm::Actor.find(girl_name) }
+    subject { PrettyRubythm::Actor.find(actor_name) }
 
     let(:actor_name) { :laala }
 
