@@ -7,4 +7,8 @@ module PriPara
       end
     end
   end
+
+  define_singleton_method :hibiki do
+    PrettyRubythm::Actor.find(:shikyouin_hibiki)
+  end
 end
