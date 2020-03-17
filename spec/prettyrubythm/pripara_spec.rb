@@ -32,4 +32,8 @@ describe PriPara do
       it { should be false }
     end
   end
+
+  describe "all" do
+  # should return actors from :pripara and :idoltime_pripara
+  end
 end
